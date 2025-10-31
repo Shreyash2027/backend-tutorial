@@ -2,14 +2,18 @@
   "name": "backend-5-project",
   "version": "1.0.0",
   "description": "a backend tutorial project",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "chai"
   ],
   "author": "Shreyash kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
